@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'cm-icon';
-  src:  url('fonts/icomoon.eot?nwnq0n');
-  src:  url('fonts/icomoon.eot?nwnq0n#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?nwnq0n') format('truetype'),
-    url('fonts/icomoon.woff?nwnq0n') format('woff'),
-    url('fonts/icomoon.svg?nwnq0n#icomoon') format('svg');
+  src:  url('fonts/cm-icon.eot?kcv6p8');
+  src:  url('fonts/cm-icon.eot?kcv6p8#iefix') format('embedded-opentype'),
+    url('fonts/cm-icon.ttf?kcv6p8') format('truetype'),
+    url('fonts/cm-icon.woff?kcv6p8') format('woff'),
+    url('fonts/cm-icon.svg?kcv6p8#cm-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,6 +35,12 @@
 }
 .cm-icon-smallarrow-down:before {
   content: "\e90b";
+}
+.cm-icon-clock:before {
+  content: "\e90d";
+}
+.cm-icon-paperplane:before {
+  content: "\e90c";
 }
 .cm-icon-axe:before {
   content: "\e904";

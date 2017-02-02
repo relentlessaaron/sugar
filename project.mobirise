@@ -6,7 +6,7 @@
       "name": "colorm",
       "title": "ColorM",
       "styling": {
-        "primaryColor": "#f39c12",
+        "primaryColor": "#e74c3c",
         "buttonsColor": "#000000",
         "secondaryColor": "#9b59b6",
         "successColor": "#2ecc71",
@@ -14,17 +14,18 @@
         "warningColor": "#f1c40f",
         "dangerColor": "#e74c3c",
         "titleFont": "Arvo",
-        "subtitleFont": "Montserrat",
+        "subtitleFont": "Oswald",
         "textFont": "Open Sans",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       }
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 11,
-    "versionPublish": "3.9.2",
-    "publishType": "github"
+    "uniqCompNum": 74,
+    "versionPublish": "3.11.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -55,22 +56,22 @@
               "color": "#000000"
             },
             ".link": {
-              "font-size": "0.875rem"
+              "font-size": "1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.948rem"
+              "font-size": "1.083rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1a242f"
+              "background": "#cfd9db"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#273646!important"
+              "background": "#e3e9eb!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2c3e50"
+              "background": "#ecf0f1"
             },
             ".bg-color.transparent .link": {
               "color": "#000000",
@@ -83,7 +84,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f39c12!important"
+              "color": "#e74c3c!important"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
             }
           },
           "_tags": [
@@ -92,8 +102,8 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#2c3e50",
-            "fontSize": 0.875,
+            "bgColor": "#ecf0f1",
+            "fontSize": "1",
             "fontName": {},
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
@@ -101,7 +111,7 @@
             "sticky": true,
             "logo": false,
             "showBrand": false,
-            "collapsed": true,
+            "collapsed": false,
             "hideButtons": true
           },
           "logo": {
@@ -118,8 +128,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">FAQ'S (FREQUENTLY ASKED QUESTION)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sugarbertstory.html\">The SugarBert Story</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Registrationpage6.html\">Boxers Register Here</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -151,7 +161,7 @@
             "paddingBottom": "4",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-22-2000x904-36.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2017-01-29-13-2000x928-13.png",
             "bgColor": "#434350",
             "bgColorRadio": false,
             "bgVideo": {
@@ -218,14 +228,16 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "parallax": true,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2016-12-29-14-2000x1124-39.png",
             "bgColor": "#2c3e50",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/mK5zwkZ-gxY?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": "0.7",
             "overlayColor": "#2c3e50",
@@ -236,16 +248,16 @@
             "ShowTexts": true,
             "showButtons": false
           },
-          "title": "Welcome To The Home of Amateur Boxing",
+          "title": "Building Boxing Talent<br>For The Future",
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-20-600x393-17.png",
+              "src": "@PROJECT_PATH@/assets/images/fort-lauderdalehere-we-come-4-600x502-20.jpg",
               "class": "features-img",
               "width": 600,
-              "link": "",
+              "link": "SUGARBERTONTOPATLANTApage3.html",
               "alt": "",
-              "title": "",
+              "title": "Sugar Bert Wells - Interviewed On Top Atlanta",
               "linkInNewWindow": false
             },
             "iconFont": {
@@ -263,7 +275,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-20-600x400-80.png",
+              "src": "@PROJECT_PATH@/assets/images/fort-lauderdalehere-we-come-600x502-36.jpg",
               "class": "features-img",
               "width": 600,
               "link": "",
@@ -286,12 +298,15 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/03.jpg",
+              "src": "@PROJECT_PATH@/assets/images/fort-lauderdalehere-we-come-2-600x502-68.jpg",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "Newsmakerpage5.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
-              "active": false,
               "class": "mbr-iconfont mbr-iconfont-features4",
               "name": "briefcase",
               "link": "https://mobirise.com",
@@ -300,16 +315,16 @@
               "family": "et-line"
             }
           },
-          "subtitle3": "SUGARBERT GROOMS<br>CHAMPIONS!",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "subtitle3": "SUGARBERT is the stage<br>for future CHAMPIONS!",
+          "caption3": "NEWSMAKER: Money Powell IV goes pro, vows to be 'greatest of all time'",
           "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-20-600x403-65.png",
+              "src": "@PROJECT_PATH@/assets/images/fort-lauderdalehere-we-come-5-600x502-31.jpg",
               "class": "features-img",
               "width": 600,
-              "link": "",
+              "link": "SoxingInspirationpage7.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -324,7 +339,7 @@
             }
           },
           "subtitle4": "SUGARBERT&nbsp;INSPIRES<br>GREATNESS!",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "caption4": "Everyone needs that push. Even the established pros need to go back to the drawing board for the ABCs and XYZs to stay on TOP GAME. This page is devoted to TOP GAME THINKING",
           "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media5": {
             "image": {
@@ -369,39 +384,25 @@
         },
         {
           "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "700",
-              "text-align": "center",
-              "font-size": "48px"
-            },
-            ".display-6": {
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "font-weight": "400",
-              "color": "#fff",
-              "text-align": "center"
-            },
-            ".mbr-cards-row": {
-              "margin-top": "40px"
+            ".mbr-section-text": {
+              "color": "#000000"
             }
           },
-          "title1": "Bootstrap 4",
-          "title2": "Responsive",
-          "title3": "Web Fonts",
-          "title4": "Unlimited Sites",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "features15",
-          "_anchor": "features15-4",
+          "_name": "features13",
+          "_anchor": "features13-1v",
           "_params": {
+            "number1": "02",
+            "imageSize": 30,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2016-12-30-16-2000x1124-34.png",
-            "bgColor": "#434350",
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/boxing-gloves-sugarbert-2000x2168.png",
+            "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -409,29 +410,31 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.9,
-            "overlayColor": "#434350",
-            "showTitle": true,
-            "showImages": true,
-            "columns": 3,
+            "overlayColor": "#fff",
+            "showNumber": true,
             "showTitles": true,
-            "ShowTexts": true
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "showImages": true
           },
-          "title": "Our Featured Fights From The Kissimmee, Fl Finals!",
-          "media": {
+          "number1": "01",
+          "subtitle1": "Have You Registered?",
+          "title1": "It's Time! The 2017 Dates Are Set",
+          "caption1": "Part of the process is signing up &amp; registering. Get your registration fee paid, the application filled out, including all the details with your age, weight, etc, and get back to training. Leave the rest to us. We will be ready to receive you at the scheduled fight.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">HOW TO REGISTER - EXPLAINED</a>",
+          "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/nb7.png",
+              "src": "@PROJECT_PATH@/assets/images/maxresdefault-600x375.jpg",
               "class": "card-img-top",
-              "active": true
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
-          },
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
+          }
         },
         {
           "_styles": {
@@ -453,7 +456,8 @@
             "H4": {
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "60px"
+              "font-size": "60px",
+              "color": "#ecf0f1"
             },
             ".btn": {
               "font-size": "10px"
@@ -481,8 +485,9 @@
           "_name": "features6",
           "_anchor": "features6-5",
           "_params": {
+            "imageSize": 50,
             "paddingTop": 2,
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2016-12-23-19-2000x1125-56.png",
@@ -494,12 +499,12 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.7",
-            "overlayColor": "#c0392b",
+            "overlayColor": "#333333",
             "showNumber": true,
             "showTitles": true,
             "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": true,
+            "ShowTexts": false,
+            "showButtons": false,
             "showImages": true
           },
           "number1": "1",
@@ -537,6 +542,9 @@
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
               "font-size": "60px"
+            },
+            "P": {
+              "color": "#080707"
             }
           },
           "title2": "Responsive",
@@ -561,6 +569,7 @@
           "_name": "features5",
           "_anchor": "features5-6",
           "_params": {
+            "imageSize": 50,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": true,
@@ -568,6 +577,1063 @@
             "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2016-12-30-16-2000x1123-77.png",
             "bgColor": "#ecf0f1",
             "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#ecf0f1",
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/notebook/nb12.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/Xt8JlX1ryfs",
+              "aspectratio": "16:9",
+              "width": "auto",
+              "height": "auto",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "number1": "1",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "title1": "Fight Highlights",
+          "caption1": "A blurb here....",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px",
+              "text-align": "center"
+            },
+            ".mbr-section-text": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-0829-2000x1122-0.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<br><br>DETERMINATION",
+                "showText": true,
+                "text": "Determination is but your intention coupled with your drive, ambition and want to succeed at something. Our young champions are INTENSE! And they make the Sugar Bert Brand very special.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1128-1.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "<br><br><br><br>Age: Nothin But A Number",
+                "showText": true,
+                "text": "The SugarBert boxing community is busy with active boxing families from all around the world. They are diverse, they are full of desire, and they color our superstages with life. We appreciate all of our boxers and ethnicities!",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/slider03.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=a9uzO5orbPs",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "<br><br><br><br>The Kids Earn Their \"Courage Stripes\" Here",
+                "showText": true,
+                "text": "They are so determined and you can't help but to love their passion to win against all odds.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1126-71.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "<br><br><br>For Some, &nbsp;Boxing Is Breathing",
+                "showText": true,
+                "text": "When soemone devotes their life to something, reaching above &amp; beyond those with ALL their faculties and capabilities, one can't help but to be inspired and attracted to the &nbsp;energy that fuels such passiona and determination. SugarBert Boxing &nbsp;is proud to &nbsp;have such champions in our community.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1122-52.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "<br><br><br>The Big Stage",
+                "showText": true,
+                "text": "We're not your average boxing evernt: 3 or more rings of action during 3 to 5 days. It all happens simultaneously under the same roof, in the same arena. There's a non-stop electricity in the air that keeps your eyeballs busy!",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1117-53.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "<br><br><br><br><br><br><br>Passion",
+                "showText": true,
+                "text": "To those who eat, sleep and dream boxing, we raise our glasses and tip our hats to you. Its you that we are here to encourage, to promote and to serve. Thank you from all the staff at SugeBert Boxing.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1126-82.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "<br><br><br><br><br><br><br><span style=\"line-height: 1.12em;\">Family Support System</span><br>",
+                "showText": true,
+                "text": "When families and communities come great distances to cheer-on their champions it creates a dynamic that is unmatched. It is both spontaneous and inspiring. Thank you to all the families in the Sugar Bert Boxing community. We are ALL family.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-30-21-2000x1119-19.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "<br><br><br><br><br><br>Professionals At Work",
+                "showText": true,
+                "text": "Our professional trainers, referees, coaches and doctors are in attendance to see that all boxers are protected and evenly matched and judged. We treasure our officials and event staff.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1119-78.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<br><br><br><br>3 Rounds of Electricity",
+                "showText": true,
+                "text": "Boxing fans are never disappointed at the Sugarbert Events. There is constant action taking place throughout the event.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1117-25.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "<br><br><br><br><br>The Corner",
+                "showText": true,
+                "text": "This is where it is so intense. It could be a father, a big brother, an uncle or a best friend. It could be the boxing coach, but they are there to encourage their fighters to victory. Press on to VICTORY!",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-0829-2000x1122-0.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/sKtJDDflqMk",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<br><br><br>Hang In There",
+                "showText": true,
+                "text": "The Masters in the Sugar Bert community can fight age 40 and above.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-3635-2000x1333-54.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "<br><br><br><br><br>Talk Is Cheap. Show &amp; Prove.&nbsp;",
+                "showText": true,
+                "text": "We are so proud of our champions, young and old.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-8",
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrow-left.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrow-right.png\">"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form4",
+          "_anchor": "form4-21",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1281.jpg",
+            "bgColor": "#2c3e50",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#2c3e50",
+            "showTitle": true,
+            "showText": false,
+            "countdown": "2017/06/09"
+          },
+          "title": "Countdown To Fort Lauderdale, Florida!",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci a, rem accusantium recusandae beatae. Eos quae sint minus dolorum facere, iure illum veritatis harum minima quod voluptatibus culpa tenetur eveniet enim. Natus, id cupiditate aperiam obcaecati incidunt nam minus accusantium libero officia expedita dignissimos optio, quis, minima quibusdam esse saepe!",
+          "form": {
+            "action": "relentlessaaron2007@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>"
+        },
+        {
+          "_styles": {
+            ".card-block p": {
+              "font-size": "15px"
+            },
+            ".card-footer > small": {
+              "color": "#232323"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "slides": [
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/olympic-boxing-coach-sp-al-061718-0130f-160x156-23.png",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "John Brown",
+                "authorBio": "PRESIDENT:<br>USA BOXING",
+                "text": "<p>“A major turning point in the history of early philosophical science was the controversial”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/evander-holyfield-2-160x157-16.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Abanoub S.",
+                "authorBio": "USER",
+                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/screenshot-2017-01-30-21-154x160-31.png",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Suffian A.",
+                "authorBio": "USER",
+                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face4.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                },
+                "authorName": "Alex Higgins",
+                "authorBio": "USER",
+                "text": "<p>\"A major tturning point in the history of early philosophical science was the controversial \"</p>"
+              }
+            ],
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showBullets": true,
+            "visibleSlides": "3",
+            "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
+            "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
+          },
+          "_anchor": "testimonials1-g",
+          "title": "What Our Boxing Fans Are Saying",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1121-43-2000x1121-11.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1121-43.png",
+                "caption": "Action in Kissimmee",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1120-45-2000x1120-84.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1120-45.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-12-30-16-2000x1127-46-2000x1127-37.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-12-30-16-2000x1127-46.png",
+                "caption": "Youthful Determination",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-17-2000x1123-13-2000x1123-19.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-17-2000x1123-13.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-15-2000x1123-31-2000x1123-92.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-15-2000x1123-31.png",
+                "caption": "Columbus Action",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-15-2000x1124-68-2000x1124-77.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-15-2000x1124-68.png",
+                "caption": "Gettin Busy Columbus",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-17-2000x1121-83-2000x1121-26.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-17-2000x1121-83.png",
+                "caption": "Girl Power - Columbus",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1117-68-2000x1117-62.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1117-68.png",
+                "caption": "Candy Man is Serious",
+                "active": true
+              }
+            ],
+            "spacing": 0,
+            "showText": true,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-9",
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Training, Qualifying, Competing",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-d",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text1": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "text2": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-f",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "googleMap": {
+              "address": "3688 King Avenue, Doraville, Georgia 30340",
+              "placeId": "ChIJbdoBeNsJ9YgRYm9i8B-iPvc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call1",
+          "_anchor": "call1-h",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColor": "#16a085",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#16a085",
+            "showText": true,
+            "showTitle": true,
+            "showButtons": true
+          },
+          "text": "Develop fully responsive, mobile-ready websites",
+          "title": "Site Info",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">see live demo</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form3",
+          "_anchor": "form3-i",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": false
+          },
+          "subtitle": "Get notified about new amazing products",
+          "title": "Subscribe now!",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "form": {
+            "action": "relentlessaaron2007@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "message": {
+                "visible": false,
+                "title": "Message",
+                "customTitle": "Message"
+              },
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary\">send</a>"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2017-01-29-13-2000x1125-51.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#35a0c6",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS WEBSITE!"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-l",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "title": "CONTACT FORM",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "relentlessaaron2007@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-k",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2017 Site Created by <a href=\"http://www.relentlessaaron.net\">Relentless</a>"
+        }
+      ]
+    },
+    "Sugarbertinterviewspage2.html": {
+      "settings": {
+        "title": "SugarBert Interviewed VIA Livestream",
+        "meta_descr": "On Top Atlanta connects the movers and shakers who are in and around the Atlanta region. SugarBert certainly qualifies!"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ecf0f1"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ecf0f1"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ecf0f1"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ecf0f1",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#e74c3c!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-r",
+          "_params": {
+            "bgColor": "#2c3e50",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ecf0f1",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">FAQ'S (FREQUENTLY ASKED QUESTION)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sugarbertstory.html\">The SugarBert Story</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Registrationpage6.html\">Boxers Register Here</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-s",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2017 Site Created by <a href=\"http://www.relentlessaaron.net\">Relentless</a>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".card-number": {
+              "left": "-20px"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features5",
+          "_anchor": "features5-t",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -590,7 +1656,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/Xt8JlX1ryfs",
+              "src": "https://www.facebook.com/ontopatlanta/videos/1808932776013654/",
               "aspectratio": "16:9",
               "width": "auto",
               "height": "auto",
@@ -600,322 +1666,1687 @@
           },
           "number1": "1",
           "subtitle1": "Bootstrap 4 has been noted",
-          "title1": "Fight Highlights",
+          "title1": "Bootstrap 4",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>"
+        }
+      ]
+    },
+    "SUGARBERTONTOPATLANTApage3.html": {
+      "settings": {
+        "title": "SUGAR BERT WELLS - ON TOP ATLANTA",
+        "meta_descr": "Host Rolonda Rochelle interviews Sugar Bert Wells on the state of boxing and amateur boxing"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ecf0f1"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ecf0f1"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ecf0f1"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ecf0f1",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#e74c3c!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-y",
+          "_params": {
+            "bgColor": "#2c3e50",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ecf0f1",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">FAQ'S (FREQUENTLY ASKED QUESTION)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sugarbertstory.html\">The SugarBert Story</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Registrationpage6.html\">Boxers Register Here</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-z",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2017 Site Created by <a href=\"http://www.relentlessaaron.net\">Relentless</a>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            "H5": {
+              "color": "#000000",
+              "font-size": "22px"
+            },
+            "H4": {
+              "color": "#ecf0f1"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features6",
+          "_anchor": "features6-11",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/n0Ukm43e8hA?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000000",
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "showImages": true
+          },
+          "number1": "1",
+          "subtitle1": "SUGAR BERT WELLS ON TOP ATLANTA",
+          "title1": "SUGAR BERT WELLS ON TOP ATLANTA",
+          "caption1": "Join Rolonda Rochell as she interviews Sugar Bert Wells in a discussion on amateur boxing, pro boxing and &nbsp;Sugar's contribution to it all<br>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">learn more</a>",
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/notebook/nb11.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=n0Ukm43e8hA",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          }
+        }
+      ]
+    },
+    "sugarbertbio.html": {
+      "settings": {
+        "title": "The SugarBert Boxing Promotions Story",
+        "meta_descr": "Bert \"SugarBert\" Wells was a boxer who climed the ladder to become a trainer and title fight promoter. He now has arguably the largest amateur boxing organization in the United States."
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-text": {
+              "color": "#232323",
+              "font-size": "20px",
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#242424",
+              "font-weight": "bold",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "text-align": "center",
+              "font-size": "60px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header7",
+          "_anchor": "header7-q",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "subtitle": "HIS STORY",
+          "title": "SugarBert<br>Started At<br>The Bottom",
+          "text": "Bert Wells started his boxing career in sunny <br>Fort Lauderdale, Florida, at the <br>Lauderhill Park and Recreation Club.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
+          "media": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/15129593-2156031154621123-4017588720639359447-o-2048x1365-47.jpg",
+              "class": "",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "Sugar Bert Bio",
+              "linkInNewWindow": false
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-n",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2017 Site Created by <a href=\"http://www.relentlessaaron.net\">Relentless</a>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "color": "#080707"
+            }
+          },
+          "_anchor": "content6-p",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "5",
+            "bgColor": "#ffffff"
+          },
+          "text1": "<p><b>THE GRIND BEGAN HERE...</b></p><p><b><br></b></p><p><b>The Sugarbert Story:</b></p><p>As Bert was playing basketball at an apartment complex near Lauderhill Park, he noticed his friend, Tony, headed towards the park. Upon inquiry, Tony revealed that he was on his way to boxing practice. Being naturally competitive, Bert replied “You can’t box. I bet you can’t beat me.” This challenge was Bert’s introduction to the world of boxing. After realizing Bert’s great skill and potential, Chico Rivas took him under his wing and taught him more about boxing and earning respect both inside and outside of the ring. Bert quickly earned the name “Sugar Bert” due to his boxing style and quick hands and feet. His talent earned him awards at competitions such as the Florida Sunshine State Games and Golden Gloves. His success allowed him to meet and train with some of his idols, including Sugar Ray Leonard, Alexis Arguello, Sugar Bert and Trevor Berbick.</p><p><br></p><p><br></p>",
+          "text2": "<p>Bert’s life changed when his father was diagnosed with cancer. He worked hard to take care of his father, while attending school at Dillard High School and still pursuing his amateur boxing career. The death of his father changed his life because it inspired him to train harder and do better. After graduating from high school, he moved to Atlanta, Georgia, to further his boxing career. There, he met Tedd Grace and Bernard Styles, who became his mentors and helped shape him into a better boxer. Bert’s life changed again when his daughter, Blaire Kristin Wells, was born. Her birth made him focus more on being a father and a provider, and less on being a boxer, causing him to hang up his boxing gloves.</p><p><br></p><p>Sugar Bert’s return to boxing was as a coach. Years after his daughter’s birth, he got a call from Bernard Styles, a coach at Paul Murphy Boxing Gym at the time, asking him to coach amateur boxers. Bert agreed, and not too longer after that – he began training professionals such as Anyetei Laryea, Charmine Carrington and Cortney Patterson, to name a few. In his travels, Sugar Bert met and talked with boxing writer and sports historian, Bert Sugar. Sugar Bert’s passion for boxing and coaching led him to create Sugar Bert Boxing Promotions.Type your paragraph here.</p><p><br></p><p>Copyright ©  Bert Wells. All rights reserved.</p>"
+        }
+      ]
+    },
+    "FAQpage4.html": {
+      "settings": {
+        "title": "Frequenty Asked Questions",
+        "meta_descr": "Sugar Bert Boxing Promotions National Qualifier FAQ's"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "32px",
+              "color": "#080707"
+            },
+            "P": {
+              "color": "#080707",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content5-14",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2017-01-30-14-2000x904-34.png",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#f1c40f",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "Sugar Bert Boxing Promotions FAQ's",
+          "caption": "<p>Your frequently asked questions are answered right here.</p>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#cfd9db"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e3e9eb!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ecf0f1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#e74c3c!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-12",
+          "_params": {
+            "bgColor": "#ecf0f1",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">FAQ'S (FREQUENTLY ASKED QUESTION)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sugarbertstory.html\">The SugarBert Story</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Registrationpage6.html\">Boxers Register Here</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#080707"
+            }
+          },
+          "_anchor": "content1-15",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<ul><li><b>QUESTION:</b> If we boxed at a qualifier at one weight class are we held to that weight class at nationals? <b>ANSWER:</b>&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">No, your weight for competition at Nationals will be declared upon surrender of your passbook during registration.</span></li></ul><ul><li><b>QUESTION:</b> If I cannot come to the tournament, will there be someone that can work my athletes corner?&nbsp;<b>ANSWER: </b>Yes, please let a staff member know at registration of your needs.</li></ul><br><ul><li><b>QUESTION:</b> Is head gear with cheek protectors allowed or will open face only be accepted?<br><b>ANSWER:</b> Open face headgear is required for Junior, Youth, &amp; Elite divisions. Masters must wear AIBA/USAB approved Masters headgear. All other divisions may wear cheek protectors.<br></li></ul><ul><li><b>QUESTION:</b> Will master bouts have the option of time for their matches?<br><b>ANSWER: </b>All Masters bouts, tournament or matched, will consist of 3 rounds 1.5 minutes in duration.<br></li></ul><ul><li><b>QUESTION:</b> Does a boxer weigh in each day?<br><b>ANSWER: </b>Athletes will only weigh-in and have a pre-bout medical exam on the days they compete.</li></ul><br><ul><li><b>QUESTION: </b>Is there a weight allowance?<br><b>ANSWER</b>: No, zero-tolerance will be given for an athlete being overweight for the weight category in which they are entered into the tournament.</li></ul><br><ul><li><b>QUESTION: </b>Does my boxer need to be present at the start of weigh-ins?<br><b>ANSWER: </b>Yes, if you are not present at the time your name is called, you will be disqualified.​</li></ul><br><ul><li><span style=\"font-size: 1rem; line-height: 1.85em;\"><b>QUESTION:</b>&nbsp;Can I use gym wraps when we compete?&nbsp;</span><span style=\"font-size: 1rem; line-height: 1.85em;\"><b>ANSWER:</b>&nbsp;&nbsp;Valpeau or gauze &amp; tape are the only permissible wraps for competition.</span></li></ul><br><ul><li><b>QUESTION:</b> Does the coach need credentials to work the corner?<br><b>ANSWER: </b>All coaches will receive credentials at registration which must be worn in the FOP at all times.</li></ul><br><ul><li><b>QUESTION:</b> Will my athlete compete more than once each day?<br><b>ANSWER:</b> No, all athletes will compete no more than once in a 24 hour period.</li></ul><br><ul><li><b>QUESTION:</b> Can I wear whatever uniform I choose in the ring?<br><b>ANSWER</b>: Athletes are required to wear loose fitting trunks with a contrasting waist band and a sleeveless boxing shirt. The trunks may not have flaps, sequins, fringes, or be gladiator/thai in style. No part of the athlete’s uniform may have nicknames, phrases, slogans, or tape of any kind.</li></ul><br><ul><li><b>QUESTION:</b> Can I wear a mouthpiece with any color or design?<br><b>ANSWER: </b>Mouthpieces may not be orange, pink, or red in any shade.</li></ul><br><ul><li><b>QUESTION: </b>I brought my own boxing equipment, can I use it?<br><b>ANSWER:</b> Competition gloves will be provided. All other equipment will be the responsibility of the athlete.<br></li></ul>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-13",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2017 Site Created by <a href=\"http://www.relentlessaaron.net\">Relentless</a>"
+        }
+      ]
+    },
+    "Newsmakerpage5.html": {
+      "settings": {
+        "title": "Money Powell IV"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ecf0f1"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ecf0f1"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ecf0f1"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ecf0f1",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#e74c3c!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-16",
+          "_params": {
+            "bgColor": "#ecf0f1",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">FAQ'S (FREQUENTLY ASKED QUESTION)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sugarbertstory.html\">The SugarBert Story</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Registrationpage6.html\">Boxers Register Here</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".card-number": {
+              "left": "-20px"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features5",
+          "_anchor": "features5-18",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/notebook/nb12.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/T__rO1EERO0",
+              "aspectratio": "16:9",
+              "width": "auto",
+              "height": "auto",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "number1": "1",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "title1": "Money Powell Gets Signed",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>"
         },
         {
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/img-0829-2000x1122-0.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "<br><br>DETERMINATION",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1128-1.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "<br><br><br><br>Age: Nothin But A Number",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@THEME_PATH@/components/_images/slider/slider03.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=a9uzO5orbPs&feature=youtu.be",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "<br><br>Featured: Round 3 Footage",
-                "showText": true,
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1126-71.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": false,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "<br><br><br>For Some, &nbsp;Boxing Is Breathing",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1122-52.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": false,
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "<br><br><br>The Big Stage",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1117-53.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": false,
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "<br><br><br><br><br>Passion",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1126-82.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": false,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "<br><br><br><br>Family Support System",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1119-99.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": false,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "<br><br><br><br><br>Professionals At Work",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1119-78.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": false,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "<br><br>Volunteering With Purpose",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1117-25.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "overlay": false,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "<br><br><br><br>The Corner",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/img-0829-2000x1122-0.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/sKtJDDflqMk",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "<br><br>Hang In There",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
-          },
-          "_anchor": "slider-8",
-          "articleLayout": false,
-          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrow-left.png\">",
-          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrow-right.png\">",
           "_styles": {
-            ".mbr-section-title": {
-              "font-size": "60px"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             }
-          }
-        },
-        {
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1121-43-2000x1121-11.png",
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1121-43.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1120-45-2000x1120-84.png",
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1120-45.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-12-30-16-2000x1127-46-2000x1127-37.png",
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-12-30-16-2000x1127-46.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-17-2000x1123-13-2000x1123-19.png",
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-17-2000x1123-13.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-15-2000x1123-31-2000x1123-92.png",
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-15-2000x1123-31.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-15-2000x1124-68-2000x1124-77.png",
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-15-2000x1124-68.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-17-2000x1121-83-2000x1121-26.png",
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2016-08-29-17-2000x1121-83.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1117-68-2000x1117-62.png",
-                "image": "@PROJECT_PATH@/assets/images/screenshot-2017-01-27-21-2000x1117-68.png",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#FFFFFF",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
           },
-          "_anchor": "gallery1-9",
-          "articleLayout": false,
-          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
-          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-19",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "ESPN: Money Powell IV goes pro, vows to be 'greatest of all time'",
+          "meta": "Dan Rafael&nbsp;ESPN Senior Writer<br>"
         },
         {
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "image1",
-          "_anchor": "image1-a",
-          "media": {
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "color": "#080707"
+            }
+          },
+          "_anchor": "content6-1a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text1": "<p>Ringstar Sports promoter Richard Schaefer announced the signing of his fifth fighter on Tuesday, standout amateur welterweight Money Powell IV, who would have been a top prospect to make the 2020 United States Olympic team.</p><p><br></p><p>\"We're excited to add a young man with the skills, amateur pedigree and demeanor of Money Powell IV, and we think he's going to be a great addition to the Ringstar family,\" Schaefer said. \"This is an incredibly talented young man who is ambitious and has a great mindset heading into the professional ranks. He has proven to be a winner throughout his amateur career, and we believe that his skills, combined with the right promotion, can turn him into a big star in the sport. I know that he wants to be the best, and I plan on helping him reach those goals.\"</p><p><br></p><p>The 18-year-old Powell, the No. 1-ranked amateur in the U.S. at 152 pounds, was born in Germany to a military family and moved back and forth between the countries during his childhood. His family landed for good at Fort Mitchell, on the border of Alabama and Georgia, in 2011, when Powell's amateur career took off.</p><p>In 2015, he won the Ringside world welterweight amateur championship and the 2016 youth welterweight national championship to earn the top ranking in the 152-pound division by USA Boxing. But rather than pursue a 2020 Olympic berth, Powell elected to head to the pro ranks after 83 amateur bouts. He plans to fight as a junior middleweight (154 pounds) in the pros.</p><p><br></p><p><br></p><p><br></p>",
+          "text2": "<p><span style=\"font-size: 1rem; line-height: 1.85em;\">\"When I was presented with the opportunity to sign with Richard and Ringstar Sports, I knew that it was a chance to achieve my dreams,\" Powell said. \"Richard is one of the most successful figures in the sport and I know that with him, I can go far. I want to be the greatest fighter that's ever lived, but I also want to be remembered as a positive figure. I hope someday I can do for other people what Richard is doing for me. I'm going to be a champion inside and outside of the ring.</span><br></p><p><br></p><p>\"I'm a boxer-puncher but I'm also a big-time thinker in the ring. I take my time and capitalize off of mistakes. I've been able to meet and work with my boxing idol, Roy Jones Jr., and he's given me encouragement and advice that has meant the world to me. Mark my words: I will be the greatest fighter of all time.\"</p><p><br></p><p>Powell is the fifth fighter Schaefer has signed since founding Ringstar Sports in June following his return to boxing. He stepped away from the sport for 2½ years away after resigning as chief executive of Golden Boy Promotions, which he co-founded with Oscar De La Hoya. Also under the Ringstar Sports banner are welterweight Eimantas Stanionis, a 2016 Lithuanian Olympian; 2016 U.S. Olympic lightweight Carlos Balderas and his older brother Jose Balderas, a bantamweight; and middleweight Misael Rodriguez, a 2016 Mexican Olympic bronze medalist. All five of the boxers are expected to make their pro debuts on the same card, which Schaefer is working on for March 14 in Los Angeles.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-17",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": true,
+            "showButtons": true
+          },
+          "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/image1.jpg",
-              "width": 1400
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2017 Site Created by <a href=\"http://www.relentlessaaron.net\">Relentless</a>"
+        }
+      ]
+    },
+    "Registrationpage6.html": {
+      "settings": {
+        "title": "Boxers Register Here"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#cfd9db"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e3e9eb!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ecf0f1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#e74c3c!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1b",
+          "_params": {
+            "bgColor": "#ecf0f1",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">FAQ'S (FREQUENTLY ASKED QUESTION)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sugarbertstory.html\">The SugarBert Story</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Registrationpage6.html\">Boxers Register Here</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".card-number": {
+              "left": "-20px"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features5",
+          "_anchor": "features5-1c",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/notebook/nb12.png",
+              "class": "card-img-top",
+              "width": 600
             },
             "video": {
-              "src": "https://www.youtube.com/watch?v=JN9bpOV9beQ",
+              "active": true,
+              "src": "https://youtu.be/T__rO1EERO0",
+              "aspectratio": "16:9",
+              "width": "auto",
+              "height": "auto",
               "autoplay": false,
-              "loop": "on",
-              "active": true
+              "loop": false
             }
           },
-          "_params": {
-            "showText": true
+          "number1": "1",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "title1": "Money Powell Gets Signed",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
           },
-          "text": "SUPERSTAR HIGHLIGHT FIGHT OF THE WEEK: TYSON/SPINKS"
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-1d",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "ESPN: Money Powell IV goes pro, vows to be 'greatest of all time'",
+          "meta": "Dan Rafael&nbsp;ESPN Senior Writer<br>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "color": "#080707"
+            }
+          },
+          "_anchor": "content6-1e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text1": "<p>Ringstar Sports promoter Richard Schaefer announced the signing of his fifth fighter on Tuesday, standout amateur welterweight Money Powell IV, who would have been a top prospect to make the 2020 United States Olympic team.</p><p><br></p><p>\"We're excited to add a young man with the skills, amateur pedigree and demeanor of Money Powell IV, and we think he's going to be a great addition to the Ringstar family,\" Schaefer said. \"This is an incredibly talented young man who is ambitious and has a great mindset heading into the professional ranks. He has proven to be a winner throughout his amateur career, and we believe that his skills, combined with the right promotion, can turn him into a big star in the sport. I know that he wants to be the best, and I plan on helping him reach those goals.\"</p><p><br></p><p>The 18-year-old Powell, the No. 1-ranked amateur in the U.S. at 152 pounds, was born in Germany to a military family and moved back and forth between the countries during his childhood. His family landed for good at Fort Mitchell, on the border of Alabama and Georgia, in 2011, when Powell's amateur career took off.</p><p>In 2015, he won the Ringside world welterweight amateur championship and the 2016 youth welterweight national championship to earn the top ranking in the 152-pound division by USA Boxing. But rather than pursue a 2020 Olympic berth, Powell elected to head to the pro ranks after 83 amateur bouts. He plans to fight as a junior middleweight (154 pounds) in the pros.</p><p><br></p><p><br></p><p><br></p>",
+          "text2": "<p><span style=\"font-size: 1rem; line-height: 1.85em;\">\"When I was presented with the opportunity to sign with Richard and Ringstar Sports, I knew that it was a chance to achieve my dreams,\" Powell said. \"Richard is one of the most successful figures in the sport and I know that with him, I can go far. I want to be the greatest fighter that's ever lived, but I also want to be remembered as a positive figure. I hope someday I can do for other people what Richard is doing for me. I'm going to be a champion inside and outside of the ring.</span><br></p><p><br></p><p>\"I'm a boxer-puncher but I'm also a big-time thinker in the ring. I take my time and capitalize off of mistakes. I've been able to meet and work with my boxing idol, Roy Jones Jr., and he's given me encouragement and advice that has meant the world to me. Mark my words: I will be the greatest fighter of all time.\"</p><p><br></p><p>Powell is the fifth fighter Schaefer has signed since founding Ringstar Sports in June following his return to boxing. He stepped away from the sport for 2½ years away after resigning as chief executive of Golden Boy Promotions, which he co-founded with Oscar De La Hoya. Also under the Ringstar Sports banner are welterweight Eimantas Stanionis, a 2016 Lithuanian Olympian; 2016 U.S. Olympic lightweight Carlos Balderas and his older brother Jose Balderas, a bantamweight; and middleweight Misael Rodriguez, a 2016 Mexican Olympic bronze medalist. All five of the boxers are expected to make their pro debuts on the same card, which Schaefer is working on for March 14 in Los Angeles.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2017 Site Created by <a href=\"http://www.relentlessaaron.net\">Relentless</a>"
+        }
+      ]
+    },
+    "boxingInspirationpage7.html": {
+      "settings": {
+        "title": "Boxing Inspirations",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#cfd9db"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e3e9eb!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ecf0f1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#e74c3c!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1g",
+          "_params": {
+            "bgColor": "#ecf0f1",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">FAQ'S (FREQUENTLY ASKED QUESTION)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"sugarbertstory.html\">The SugarBert Story</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Registrationpage6.html\">Boxers Register Here</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".display-6": {
+              "text-transform": "none",
+              "letter-spacing": "0px",
+              "font-weight": "400",
+              "color": "#fff"
+            },
+            ".mbr-cards-row": {
+              "margin-top": "40px"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "title2": "Responsive",
+          "title3": "Web Fonts",
+          "title4": "Unlimited Sites",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features15",
+          "_anchor": "features15-1p",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2017-01-29-13-2000x928-132.png",
+            "bgColor": "#434350",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0",
+            "overlayColor": "#434350",
+            "showTitle": true,
+            "showImages": false,
+            "columns": "4",
+            "showTitles": false,
+            "ShowTexts": false
+          },
+          "title": "",
+          "media": {
+            "image": {
+              "src": "file:///Users/relentlessfilmsbookswebsites/Library/Application%20Support/Mobirise.com/Mobirise/projectData/screenshot-2017-01-27-19-1918x1076-6_2.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "P": {
+              "font-size": "22px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-1i",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "MOTIVATE - INSPIRE - BUILD - PUSH",
+          "meta": "Everyone Needs A Little of This Sometimes"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle, .btn": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-weight": "700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-1l",
+          "_params": {
+            "buttonAlign": "right",
+            "iconsColor": "#ffffff",
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2017-01-29-15-2000x1121-15.png",
+            "bgColor": "#8e44ad",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#7f8c8d",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Be Inspired",
+          "text": "Develop your mental and physical skills with inspiration from generations of boxing influencers. Come to this page for the best inspiration ever known to the boxing world.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1k",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2017 Site Created by <a href=\"http://www.relentlessaaron.net\">Relentless</a>"
+        },
+        {
+          "_styles": {
+            ".elements-content": {
+              "padding-bottom": "140px"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "60px",
+              "font-size": "80px",
+              "text-align": "center"
+            },
+            ".nav-tabs": {
+              "margin-top": "90px"
+            },
+            "H3": {
+              "text-align": "left",
+              "font-size": "22px",
+              "color": "#e74c3c"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "22px",
+              "color": "#ecf0f1"
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-1m",
+          "_params": {
+            "tabs": "5",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2017-01-30-21-2000x892-9.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#34495e",
+            "showHeader": true,
+            "showImages": true,
+            "showTitles": true
+          },
+          "title": "Inspirational Quotes",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "quote",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": "73",
+              "color": "#f7da64",
+              "newWindow": false
+            }
+          },
+          "title1": "JULIO CÉSAR CHÁVEZ",
+          "text1": "I was an OK boxer, I wasn't great, I was OK, but I loved the discipline of getting together every Monday, Wednesday and Friday, usually Saturday afternoons too, with a whole bunch of mates and training, very, very hard for about two-and-half hours.",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "quote",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": "73",
+              "color": "#f7da64",
+              "newWindow": false
+            }
+          },
+          "title2": "GEORGE FOREMAN",
+          "text2": "It's great to reminisce about good memories of my past. It was enjoyable when it was today. So learning to enjoy today has two benefits: it gives me happiness right now, and it becomes a good memory later.<br>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "idea",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": "73",
+              "color": "#f7da64",
+              "newWindow": false
+            }
+          },
+          "title3": "HOWARD COSELL",
+          "text3": "Then there is a still higher type of courage - the courage to brave pain, to live with it, to never let others know of it and to still find joy in life; to wake up in the morning with an enthusiasm for the day ahead.",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "star",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": "73",
+              "color": "#f7da64",
+              "newWindow": false
+            }
+          },
+          "title4": "MOHAMMAD ALI",
+          "text4": "Success is not achieved by winning all the time. Real success comes when we rise after we fall. Some mountains are higher than others. Some roads steeper than the next. There are hardships and setbacks but you cannot let them stop you. Even on the steepest road you must not turn back.",
+          "media5": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "chat",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "title5": "MIKE TYSON",
+          "text5": "Fear is the greatest obstacle to learning. But fear is your best friend. Fear is like fire. If you learn to control it, you let it work for you. If you don’t learn to control it, it’ll destroy you and everything around you. Like a snowball on a hill, you can pick it up and throw it or do anything you want with it before it starts rolling down, but once it rolls down and gets so big, it’ll crush you to death. So one must never allow fear to develop and build up without having control over it, because if you don’t you won’t be able to achieve your objective or save your life.<br>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title6": "CONTACT FORMS",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-1m\" aria-expanded=\"false\">Julio César Chávez</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-1m\" aria-expanded=\"true\">george FORMAN</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-1m\" aria-expanded=\"false\">HOWARD COSELL</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-1m\" aria-expanded=\"false\">Mohammad ALI</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-1m\" aria-expanded=\"false\">MIKE TYSON</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-1m\">Beautiful</a></li>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            "P": {
+              "color": "#c0392b"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features6",
+          "_anchor": "features6-1o",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "showImages": true
+          },
+          "number1": "1",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "title1": "\"It's about how hard you can get hit, and keep movin forward\"",
+          "caption1": "<br>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">learn more</a>",
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/notebook/nb11.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/3JeEq6JDzs8",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          }
         }
       ]
     }
